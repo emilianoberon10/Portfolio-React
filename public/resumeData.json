@@ -3,8 +3,8 @@
     "name": "Emiliano Beron",
     "occupation": "Fronted Developer",
     "description": "I eat, sleep and breathe React",
-    "image": "profilepic.jpg",
-    "bio": "My name is Emiliano Berón I am currently deepening my knowledge of ReactJS, API's and patterns designs also im on a software engineering degree.",
+    "image": "profilepic.jpeg",
+    "bio": "My name is Emiliano Berón I am passionate about technology and UI/UX desing, with great enthusiasm for learning and working, I am currently a software engineering student and deepening my knowledge of ReactJS, API's and pattern designs. I’m interested in working with ReactJS/Nextjs.",
     "contactmessage": "Get in touch with me",
     "email": "emilianoberon10@gmail.com",
     "phone": "+598 9980721",
@@ -41,16 +41,28 @@
     ],
     "skills": [
       {
+        "name": "ReactJs",
+        "icon": "reactjs.svg"
+      },
+      {
+        "name": "Javascript",
+        "icon": "javascript.svg"
+      },
+      {
         "name": "Nodejs",
-        "icon": "nodejs.png"
+        "icon": "nodejs.svg"
+      },
+      {
+        "name": "HTML",
+        "icon": "html-5.png"
       },
       {
         "name": "CSS",
         "icon": "css-3.png"
       },
       {
-        "name": "HTML",
-        "icon": "html-5.png"
+        "name": "SASS",
+        "icon": "sass.svg"
       },
       {
         "name": "Git",
@@ -63,20 +75,20 @@
       {
         "title": "Amazon (React JS)",
         "category": "",
-        "image": "linkedin.jpg",
+        "image": "amazon.png",
         "url": "https://amazon-clone-juwaxqmqi-emilianoberon10.vercel.app/"
       },
       {
         "title": "Netflix (React JS)",
         "category": "",
-        "image": "snapchat.jpg",
+        "image": "Netflix-clone.jpg",
         "url": "https://netflix-clone-6ff69.web.app/"
       },
       {
         "title": "Instagram (React JS)",
         "category": "",
-        "image": "gmail.jpg",
-        "url": "https://github.com/emilianoberon10/instagram-clone"
+        "image": "instagram.png",
+        "url": "https://instagram-clone-react-fde1e.web.app/"
       }
     ]
   }
