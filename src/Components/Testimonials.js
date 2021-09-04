@@ -33,4 +33,4 @@ const Testimonials = ({ data }) => {
   );
 };
 
-export default Testimonials;
+export default Testimonials
