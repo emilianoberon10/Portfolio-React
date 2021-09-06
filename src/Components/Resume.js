@@ -20,7 +20,7 @@ const Resume = ({ data }) => {
       // "images/" + data.image
       var icon = "images/icons/" + skills.icon;
       return (
-          <img src={icon} alt="skill icon" className="skill-icon" />
+          <img src={icon} alt="skill icon" className="skill-icon" key={icon} />
       );
     });
   }
@@ -51,8 +51,10 @@ const Resume = ({ data }) => {
         <div className="nine columns main-col">
           <p>{skillmessage}</p>
           <div>
-            <div className="skills">
+            <div className="row item">
+            <div className="skill">
               {skills}
+            </div>
             </div>
           </div>
         </div>
