@@ -20,7 +20,7 @@ const Resume = ({ data }) => {
       // "images/" + data.image
       var icon = "images/icons/" + skills.icon;
       return (
-          <img src={icon} alt="skill icon" className="skill-icon" key={icon} />
+          <img src={icon} alt={skills.name} className="skill-icon" key={icon} />
       );
     });
   }
